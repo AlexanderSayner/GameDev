@@ -1,0 +1,40 @@
+```
+# Java/Gradle specific ignores
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Compiled Python files (if any Python exists)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
