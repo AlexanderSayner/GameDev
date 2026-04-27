@@ -1,0 +1,16 @@
+```
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.properties
+
+# Java class files
+*.class
+
+# Compressed distributions
+*.tar
+*.zip
+
+# Temporary files
+*.tmp
+```
